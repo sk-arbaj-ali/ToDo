@@ -9,6 +9,7 @@ const AddComponent = ({insertListItem}) =>{
     };
     const inputValtoFun = () =>{
         insertListItem(inpVal);
+        setInpVal("");
     };
 
     return(

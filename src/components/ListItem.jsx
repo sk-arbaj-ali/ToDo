@@ -7,7 +7,7 @@ const ListItem = ({content, itemKey, deleteItem, setModalTrue, passItemKeyToModa
         deleteItem(itemKey);
     };
     const passKeyToModal = () =>{
-        passItemKeyToModal(itemKey);
+        passItemKeyToModal(itemKey,content);
         setModalTrue();
     };
     return(
