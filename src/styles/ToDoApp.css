@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #F4EAE0; */
+    background-color: #E5D4FF;
+    /* position: relative; */
+}
+
+.AppContainer {
+    font-family: 'Roboto', sans-serif;
+    background: #F2FFE9;
+    width: 35vw;
+    height:85vh;
+    border-radius: 2rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .AppContainer {
+        width: 80vw;
+    }
+}

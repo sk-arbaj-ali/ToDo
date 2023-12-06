@@ -1,5 +1,6 @@
 import React from 'react';
 import tickIcon from "../assets/images/icons8-tick-48.png";
+import '../styles/AddComponent.css';
 
 const AddComponent = ({insertListItem}) =>{
 

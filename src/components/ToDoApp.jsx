@@ -2,6 +2,7 @@ import React from 'react';
 import AddComponent from './AddComponent.jsx';
 import ShowList from './ShowList.jsx';
 import Modal from './Modal.jsx';
+import '../styles/ToDoApp.css';
 
 let counter = 0;
 let alphabets = "abcdefghijklmnopqrstuvwxyz";
@@ -52,6 +53,7 @@ const ToDoApp = () =>{
     };
     const setModalVisibilityToFalse = () =>{
         setModalVisibility(false);
+        document.querySelector('.modal').classList.remove('modal-top-animation');
     };
 
     const passItemKeyToModal = (itemKey, content) =>{

@@ -1,0 +1,31 @@
+
+.list-item {
+    display: flex;
+    /* background:red; */
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem 0.2rem;
+    border: 2px solid #435585;
+    border-radius: 1rem;;
+}
+
+li {
+    flex-grow:3;
+    padding: 0.4rem;
+}
+
+img[alt="delete icon"] {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+img[alt="edit icon"] {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    margin:0 0.2rem;
+    cursor: pointer;
+}

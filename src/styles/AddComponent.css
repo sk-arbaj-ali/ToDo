@@ -1,0 +1,31 @@
+
+.AddField {
+    background-color: #9BBEC8;
+    margin-top:0.8rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* width: %; */
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    color: #363062;
+}
+
+#inputField {
+    padding:0.5rem;
+    border: 0;
+    border-radius: 2rem;
+    margin: 0 0.5rem;
+}
+#inputField:focus {
+    outline: 3px solid #A6CF98;
+}
+
+#tick_add_icon {
+    object-fit: cover;
+    width: 40px;
+    cursor:pointer;
+}

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import tickIcon from "../assets/images/icons8-tick-48.png";
+import '../styles/Modal.css';
 
 const Modal = ({setModalFalse, content, itemKey, editListItem}) =>{
+
 
     const [newNote, setNewNote] = React.useState(content);
 

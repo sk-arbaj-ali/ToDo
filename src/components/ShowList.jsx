@@ -1,5 +1,6 @@
 import React from 'react';
 import ListItem from './ListItem';
+import '../styles/ShowList.css';
 
 const ShowList = ({topicList, deleteItem, setModalTrue, passItemKeyToModal}) =>{
     return(
