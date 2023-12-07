@@ -8,7 +8,10 @@ const AddComponent = ({insertListItem}) =>{
     const handleInput = (event) =>{
         setInpVal(event.target.value);
     };
-    const inputValtoFun = () =>{
+    const inputValtoFun = (event) =>{
+        if(inpVal === ''){
+            return;
+        }
         insertListItem(inpVal);
         setInpVal("");
     };

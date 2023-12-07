@@ -29,3 +29,15 @@ img[alt="edit icon"] {
     margin:0 0.2rem;
     cursor: pointer;
 }
+
+img[alt="strike through icon"] {
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    margin:0 0.1rem;
+}
+
+input[name='strikeThrough'] {
+    width: 40px;
+    margin: 0;
+}

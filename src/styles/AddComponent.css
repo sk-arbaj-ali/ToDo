@@ -7,8 +7,8 @@
     display: flex;
     /* justify-content: space-evenly; */
     align-items: center;
-    /* width: %; */
-    font-size: 1.5rem;
+    width: 85%;
+    font-size: 1.15rem;
     padding: 0.5rem;
     border-radius: 1.5rem;
     color: #363062;
@@ -19,6 +19,7 @@
     border: 0;
     border-radius: 2rem;
     margin: 0 0.5rem;
+    font-size: 1.05rem;
 }
 #inputField:focus {
     outline: 3px solid #A6CF98;
@@ -28,4 +29,14 @@
     object-fit: cover;
     width: 40px;
     cursor:pointer;
+}
+
+@media screen and (max-width: 900px){
+    .AddField {
+        width: 80%;
+        flex-direction: column;
+    }
+    #inputField {
+        margin: 0.3rem 0;
+    }
 }

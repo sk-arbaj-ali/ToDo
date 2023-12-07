@@ -17,8 +17,20 @@ const Modal = ({setModalFalse, content, itemKey, editListItem}) =>{
         setNewNote("");
     }
 
+    const handleClick = (event) =>{
+        console.log(event);
+        if(event.target.tagName === 'INPUT'){
+            return;
+        }
+        else
+        {
+            setModalFalse();
+            setNewNote('');
+        }
+    }
+
     return(
-        <div className="ModalContainer">
+        <div className="ModalContainer" onClick={handleClick}>
             <div className="modal">
                 <label htmlFor="editNote">New Note: </label>
                 <input type="text" id="editNote" value={newNote} onChange={handleInputChange} />
